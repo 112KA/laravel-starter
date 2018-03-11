@@ -20,6 +20,12 @@ make start
 make stop
 ```
 
+## Docker環境のログを確認したい場合
+
+```sh
+make tail
+```
+
 ## 最初に環境起動した時に実行する
 
 ```sh
