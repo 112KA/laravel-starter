@@ -20,7 +20,7 @@ install:
 	docker-compose exec app bash -c '(cd /var/www/laravel && composer install)'
 
 .PHONY: init
-init: key install migrate
+init: install key migrate
 	cp ./www/laravel/.env.example ./www/laravel/.env
 
 .PHONY: key
