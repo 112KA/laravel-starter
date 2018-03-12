@@ -1,6 +1,6 @@
 # hello-laravel
 
-laravelでTodo
+laravel で Todo
 
 ## 事前準備
 
@@ -8,7 +8,7 @@ docker, docker-compose が使えるようにしておく。
 
 ## 環境の起動
 
-DockerでMySQL, Nginx, PHPの起動
+Docker で MySQL, Nginx, PHP の起動
 
 ```sh
 make start
@@ -20,7 +20,7 @@ make start
 make stop
 ```
 
-## Docker環境のログを確認したい場合
+## Docker 環境のログを確認したい場合
 
 ```sh
 make tail
