@@ -6,6 +6,16 @@ laravel で Todo
 
 docker, docker-compose が使えるようにしておく。
 
+## 最初に環境起動した時に実行する
+
+```sh
+git clone https://github.com/gcoka/hello-laravel.git
+make start
+make init
+```
+
+<localhost:8000>にアクセス
+
 ## 環境の起動
 
 Docker で MySQL, Nginx, PHP の起動
@@ -24,12 +34,6 @@ make stop
 
 ```sh
 make tail
-```
-
-## 最初に環境起動した時に実行する
-
-```sh
-make init
 ```
 
 ## DB migration
