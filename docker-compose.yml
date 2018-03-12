@@ -19,7 +19,7 @@ services:
             # - redis
     mysql:
         image: mysql:latest
-        container_name: mysql_laravel_hello
+        # container_name: mysql_laravel_hello
         volumes:
             - mysql:/var/lib/mysql
         environment:
