@@ -1,6 +1,6 @@
-# hello-laravel
+# laravel-starter
 
-laravel で Todo
+laravel の軽量 Starter Kit
 
 ## 事前準備
 
