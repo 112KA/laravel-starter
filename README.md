@@ -9,7 +9,8 @@ docker, docker-compose が使えるようにしておく。
 ## 最初に環境起動した時に実行する
 
 ```sh
-git clone https://github.com/gcoka/hello-laravel.git
+git clone https://github.com/gcoka/laravel-starter.git
+cd laravel-starter
 make start
 make init
 ```
